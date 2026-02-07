@@ -16,7 +16,7 @@ export default function AboutPage() {
   return (
     <div className="flex min-h-screen flex-col">
       {/* Hero Section */}
-      <section className="relative h-[500px] md:h-[600px] w-full overflow-hidden">
+      <section className="relative h-[500px] md:h-[650px] lg:h-[700px] w-full overflow-hidden mt-20">
         <div className="absolute inset-0 bg-black/60 z-10" />
         <Image src="/images/construction-team.jpeg" alt="29YARDS team" fill className="object-cover" priority />
         <div className="relative z-20 container mx-auto px-4 h-full flex flex-col justify-center items-center text-center">

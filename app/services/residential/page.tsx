@@ -10,6 +10,46 @@ export const metadata = {
     "Explore BuildMaster's residential construction services including custom homes, renovations, and additions.",
 }
 
+const processSteps = [
+  {
+    title: "Initial Consultation",
+    description: "We start by understanding your needs and preferences.",
+  },
+  {
+    title: "Design Phase",
+    description: "Our team designs your dream home with precision and creativity.",
+  },
+  {
+    title: "Construction",
+    description: "We build your home with quality materials and skilled craftsmanship.",
+  },
+  {
+    title: "Completion",
+    description: "Your dream home is ready for you to move in.",
+  },
+]
+
+const residentialProjects = [
+  {
+    id: 1,
+    title: "Modern Family Home",
+    location: "Springfield, IL",
+    image: "/images/project-1.png",
+  },
+  {
+    id: 2,
+    title: "Historic Home Renovation",
+    location: "Chicago, IL",
+    image: "/images/project-2.png",
+  },
+  {
+    id: 3,
+    title: "Luxury Addition",
+    location: "Naperville, IL",
+    image: "/images/project-3.png",
+  },
+]
+
 export default function ResidentialServicePage() {
   return (
     <div className="flex min-h-screen flex-col">
@@ -164,7 +204,7 @@ export default function ResidentialServicePage() {
                       <h3 className="font-bold text-xl text-white">{project.title}</h3>
                       <p className="text-amber-300 mb-4">{project.location}</p>
                       <Link href={`/projects/${project.id}`}>
-                        <Button variant="outline" className="text-white border-white hover:bg-white/20">
+                        <Button variant="outline" className="text-white border-white hover:bg-white/20 bg-transparent">
                           View Details
                         </Button>
                       </Link>
@@ -178,61 +218,12 @@ export default function ResidentialServicePage() {
             <Link href="/projects">
               <Button
                 variant="outline"
-                className="border-amber-500 text-amber-500 hover:bg-amber-500 hover:text-white font-medium px-8"
+                className="border-amber-500 text-amber-500 hover:bg-amber-500 hover:text-white font-medium px-8 bg-transparent"
               >
                 View All Projects
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16 max-w-3xl mx-auto">
-            <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 rounded-full text-sm font-medium mb-4">
-              Client Testimonials
-            </div>
-            <h2 className="text-4xl font-bold mb-6">What Our Clients Say</h2>
-            <p className="text-gray-700 text-lg">
-              Hear from homeowners who have trusted us with their residential construction projects.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
-                <div className="flex items-center mb-6">
-                  <div className="relative h-16 w-16 rounded-full overflow-hidden mr-4 border-2 border-amber-300">
-                    <Image
-                      src={testimonial.avatar || "/placeholder.svg"}
-                      alt={testimonial.name}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-lg">{testimonial.name}</h3>
-                    <p className="text-amber-600">{testimonial.project}</p>
-                  </div>
-                </div>
-                <p className="text-gray-700 italic mb-4">"{testimonial.quote}"</p>
-                <div className="flex text-amber-500">
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={i}
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  ))}
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -293,76 +284,5 @@ const residentialServices = [
       "Expanded kitchens and dining areas",
       "Second-story additions",
     ],
-  },
-]
-
-const processSteps = [
-  {
-    title: "Initial Consultation",
-    description:
-      "We begin with a thorough consultation to understand your vision, requirements, and budget constraints for your residential project.",
-  },
-  {
-    title: "Design & Planning",
-    description:
-      "Our design team creates detailed plans and visualizations of your home, incorporating your feedback at every stage.",
-  },
-  {
-    title: "Material Selection",
-    description:
-      "We guide you through selecting the right materials that balance quality, aesthetics, and budget for your home.",
-  },
-  {
-    title: "Construction",
-    description:
-      "Our skilled craftsmen bring your home to life with precision, quality materials, and attention to detail.",
-  },
-  {
-    title: "Quality Assurance",
-    description:
-      "Rigorous quality checks throughout the construction process ensure your home meets our high standards.",
-  },
-  {
-    title: "Final Walkthrough",
-    description:
-      "We conduct a comprehensive walkthrough with you to ensure every detail meets your expectations before handover.",
-  },
-]
-
-const residentialProjects = [
-  {
-    id: "lakeside-villa",
-    title: "Lakeside Villa",
-    location: "Lake District",
-    image: "/images/project-2.png",
-  },
-  {
-    id: "modern-farmhouse",
-    title: "Modern Farmhouse",
-    location: "Countryside Estates",
-    image: "/images/project-6.png",
-  },
-  {
-    id: "urban-townhouse",
-    title: "Urban Townhouse",
-    location: "Downtown",
-    image: "/images/project-3.png",
-  },
-]
-
-const testimonials = [
-  {
-    name: "Emily & David Thompson",
-    project: "Custom Home Build",
-    quote:
-      "BuildMaster turned our dream home into reality. Their attention to detail and commitment to quality exceeded our expectations. We couldn't be happier with our new home.",
-    avatar: "/images/testimonial-1.png",
-  },
-  {
-    name: "Michael Rodriguez",
-    project: "Home Renovation",
-    quote:
-      "The renovation of our 1950s home was handled with expertise and care. The team respected the character of our home while modernizing it beautifully.",
-    avatar: "/images/testimonial-2.png",
   },
 ]
