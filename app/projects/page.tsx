@@ -189,7 +189,7 @@ export default function ProjectsPage() {
             </div>
             <div className="relative h-[300px] sm:h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-xl mt-8 md:mt-0">
               <Image
-                src="/images/process.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-08%20at%201.50.42%20AM-AXaEJgryJnMkRjhtgiySG8fvxgi3n6.jpeg"
                 alt="Construction process"
                 fill
                 className="object-cover"
