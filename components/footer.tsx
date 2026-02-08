@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 export function Footer() {
   return (
     <footer className="bg-[#131313] text-white">
-      <div className="container py-12 md:py-16 lg:py-20 sm:py-14 ml-0">
+      <div className="container py-12 md:py-16 lg:py-20 sm:py-14 ml-0 sm:ml-[50px]">
         {/* 29YARDS Section - Full Width */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 sm:mb-12">
           <div className="text-center sm:text-left">
