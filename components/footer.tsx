@@ -149,6 +149,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-8 sm:mt-10 md:mt-12 pt-6 md:pt-8 text-center text-gray-400 text-sm max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <p>&copy; {new Date().getFullYear()} 29YARDS Construction. All rights reserved.</p>
+          <p className="mt-2 text-xs">⚡Powered by Dribyte</p>
         </div>
       </div>
     </footer>
