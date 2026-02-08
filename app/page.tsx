@@ -284,7 +284,7 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-10 md:py-16 dark:bg-slate-600 bg-sidebar-primary">
+      <section className="py-10 md:py-16 bg-zinc-900">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-8 text-center max-w-5xl mx-auto">
             <FadeIn direction="up" delay={0.1}>
@@ -292,7 +292,7 @@ export default function Home() {
                 <div className="text-3xl md:text-4xl font-bold text-white mb-1 md:mb-2">
                   <CountUp end={3} suffix="+" />
                 </div>
-                <p className="text-black dark:text-gray-100 font-medium text-sm md:text-base">Projects Completed</p>
+                <p className="text-gray-300 font-medium text-sm md:text-base">Projects Completed</p>
               </div>
             </FadeIn>
             <FadeIn direction="up" delay={0.2}>
@@ -300,7 +300,7 @@ export default function Home() {
                 <div className="text-3xl md:text-4xl font-bold text-white mb-1 md:mb-2">
                   <CountUp end={8} suffix="+" />
                 </div>
-                <p className="text-black dark:text-gray-100 font-medium text-sm md:text-base">Years Experience</p>
+                <p className="text-gray-300 font-medium text-sm md:text-base">Years Experience</p>
               </div>
             </FadeIn>
             <FadeIn direction="up" delay={0.3}>
@@ -308,7 +308,7 @@ export default function Home() {
                 <div className="text-3xl md:text-4xl font-bold text-white mb-1 md:mb-2">
                   <CountUp end={6} suffix="+" />
                 </div>
-                <p className="text-black dark:text-gray-100 font-medium text-sm md:text-base">Expert Engineers</p>
+                <p className="text-gray-300 font-medium text-sm md:text-base">Expert Engineers</p>
               </div>
             </FadeIn>
             <FadeIn direction="up" delay={0.4}>
@@ -316,7 +316,7 @@ export default function Home() {
                 <div className="text-3xl md:text-4xl font-bold text-white mb-1 md:mb-2">
                   <CountUp end={3} suffix="+" />
                 </div>
-                <p className="text-black dark:text-gray-100 font-medium text-sm md:text-base">Countries Experienced</p>
+                <p className="text-gray-300 font-medium text-sm md:text-base">Countries Experienced</p>
               </div>
             </FadeIn>
           </div>
