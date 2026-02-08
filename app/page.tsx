@@ -284,7 +284,7 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-10 md:py-16 bg-slate-500 dark:bg-slate-600">
+      <section className="py-10 md:py-16 dark:bg-slate-600 bg-sidebar-primary">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-8 text-center max-w-5xl mx-auto">
             <FadeIn direction="up" delay={0.1}>
