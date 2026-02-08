@@ -28,19 +28,19 @@ export function Footer() {
                 href="/services/residential"
                 className="text-gray-400 text-sm md:text-base hover:text-[#646464] transition-colors"
               >
-                Residential
+                Residential Construction 
               </Link>
               <Link
                 href="/services/commercial"
                 className="text-gray-400 text-sm md:text-base hover:text-[#646464] transition-colors"
               >
-                Commercial
+                Commercial Construction 
               </Link>
               <Link
                 href="/services/renovation"
                 className="text-gray-400 text-sm md:text-base hover:text-[#646464] transition-colors"
               >
-                Renovation
+                Renovation Construction 
               </Link>
             </div>
           </div>
