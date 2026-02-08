@@ -82,7 +82,7 @@ export default function Home() {
                     rippleColor="rgba(255, 255, 255, 0.3)"
                   >
                     View Projects
-                    <ChevronRight className="ml-2 h-4 w-4" />
+                    <ChevronRight className="ml-2 h-4 w-4 text-card-foreground" />
                   </HoverButton>
                 </Link>
               </div>
