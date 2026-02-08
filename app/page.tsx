@@ -262,7 +262,7 @@ export default function Home() {
                 </div>
               </HoverCard>
               <HoverCard className="sm:col-span-2 md:col-span-1">
-                <div className="bg-white p-6 md:p-8 rounded-xl text-center shadow-sm hover:shadow-md transition-shadow border border-[#E5E5E5]">
+                <div className="p-6 md:p-8 rounded-xl text-center shadow-sm hover:shadow-md transition-shadow border border-[#E5E5E5] bg-neutral-300">
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
                     transition={{ duration: 0.3 }}
