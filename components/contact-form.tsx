@@ -117,7 +117,7 @@ My Project: ${formData.myProject}`
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className="w-full px-3 md:px-4 py-2 md:py-3 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+            className="w-full px-3 md:px-4 py-2 md:py-3 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#646464]"
             placeholder="Full Name"
             required
           />
@@ -132,7 +132,7 @@ My Project: ${formData.myProject}`
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full px-3 md:px-4 py-2 md:py-3 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+            className="w-full px-3 md:px-4 py-2 md:py-3 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#646464]"
             placeholder="29yards@gmail.com"
             required
           />
@@ -213,7 +213,7 @@ My Project: ${formData.myProject}`
       <Button
         type="submit"
         disabled={loading}
-        className="w-full bg-amber-500 hover:bg-amber-600 text-black font-medium py-2 md:py-3 text-sm md:text-base"
+        className="w-full bg-[#3C3C3C] hover:bg-[#646464] text-white font-medium py-2 md:py-3 text-sm md:text-base transition-all duration-300"
       >
         {loading ? "Sending..." : "Send Message via WhatsApp"}
         <ArrowRight className="ml-2 h-4 w-4" />
