@@ -228,7 +228,7 @@ export default function Home() {
           <StaggerIn direction="up" staggerDelay={0.1}>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-5xl mx-auto">
               <HoverCard>
-                <div className="bg-white p-6 md:p-8 rounded-xl text-center shadow-sm hover:shadow-md transition-shadow border border-[#E5E5E5]">
+                <div className="p-6 md:p-8 rounded-xl text-center shadow-sm hover:shadow-md transition-shadow border border-[#E5E5E5] bg-neutral-300">
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
                     transition={{ duration: 0.3 }}
