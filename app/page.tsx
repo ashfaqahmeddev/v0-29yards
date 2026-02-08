@@ -47,13 +47,13 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="inline-block px-4 py-2 bg-amber-500/90 text-white rounded-full text-sm font-medium mb-4"
+                className="inline-block px-4 py-2 bg-slate-200 text-slate-700 rounded-full text-sm font-medium mb-4"
               >
                 Engineered with Precision
               </motion.div>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6 drop-shadow-md">
-                Quality Spaces with <span className="text-amber-400">Engineering Excellence</span>
+                Quality Spaces with <span className="text-slate-600">Engineering Excellence</span>
               </h1>
 
               <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 md:mb-10 max-w-xl md:max-w-2xl mx-auto drop-shadow-md">
@@ -65,7 +65,7 @@ export default function Home() {
                 <Link href="/services" className="w-full sm:w-auto">
                   <AnimatedButton
                     size="lg"
-                    className="bg-amber-600 hover:bg-amber-700 text-white font-semibold px-6 sm:px-8 w-full sm:w-auto"
+                    className="bg-slate-700 hover:bg-slate-800 text-white font-semibold px-6 sm:px-8 w-full sm:w-auto"
                     hoverEffect="lift"
                     iconAnimation={true}
                   >
@@ -96,7 +96,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <FadeIn>
             <div className="text-center mb-12 md:mb-20 max-w-3xl mx-auto">
-              <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-400 rounded-full text-sm font-medium mb-3 md:mb-4">
+              <div className="inline-block px-4 py-2 bg-slate-100 text-slate-700 dark:bg-slate-900 dark:text-slate-400 rounded-full text-sm font-medium mb-3 md:mb-4">
                 Our Purpose
               </div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-gray-900 dark:text-white">
@@ -116,9 +116,9 @@ export default function Home() {
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
                     transition={{ duration: 0.3 }}
-                    className="bg-amber-100 dark:bg-amber-900 w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center mr-4"
+                    className="bg-slate-100 dark:bg-slate-900 w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center mr-4"
                   >
-                    <Target className="h-6 w-6 md:h-7 md:w-7 text-amber-600 dark:text-amber-400" />
+                    <Target className="h-6 w-6 md:h-7 md:w-7 text-slate-600 dark:text-slate-400" />
                   </motion.div>
                   <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">Our Mission</h3>
                 </div>
@@ -128,19 +128,19 @@ export default function Home() {
                 </p>
                 <StaggerIn direction="up" staggerDelay={0.1}>
                   <div className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-slate-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
                     <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base text-left">
                       Engineer-led projects ensuring technical expertise at every stage
                     </p>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-slate-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
                     <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base text-left">
                       Transparent costing with clear BOQs and stage-wise billing
                     </p>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-slate-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
                     <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base text-left">
                       ISO-based quality systems with international standards
                     </p>
@@ -155,9 +155,9 @@ export default function Home() {
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
                     transition={{ duration: 0.3 }}
-                    className="bg-amber-100 dark:bg-amber-900 w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center mr-4"
+                    className="bg-slate-100 dark:bg-slate-900 w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center mr-4"
                   >
-                    <Eye className="h-6 w-6 md:h-7 md:w-7 text-amber-600 dark:text-amber-400" />
+                    <Eye className="h-6 w-6 md:h-7 md:w-7 text-slate-600 dark:text-slate-400" />
                   </motion.div>
                   <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">Our Vision</h3>
                 </div>
@@ -167,19 +167,19 @@ export default function Home() {
                 </p>
                 <StaggerIn direction="up" staggerDelay={0.1}>
                   <div className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-slate-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
                     <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base text-left">
                       International standards with local expertise in Tamil Nadu
                     </p>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-slate-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
                     <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base text-left">
                       Modern technology like BIM, ETABS, and advanced software
                     </p>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-slate-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
                     <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base text-left">
                       Founder-led project supervision from planning to completion
                     </p>
@@ -191,13 +191,13 @@ export default function Home() {
 
           <ScaleIn delay={0.6}>
             <div className="mt-10 md:mt-16 text-center">
-              <div className="bg-amber-50 dark:bg-amber-900/30 p-6 md:p-8 rounded-2xl max-w-3xl mx-auto">
+              <div className="bg-slate-50 dark:bg-slate-900/30 p-6 md:p-8 rounded-2xl max-w-3xl mx-auto">
                 <motion.div
                   whileHover={{ rotate: 15, scale: 1.1 }}
                   transition={{ duration: 0.3 }}
-                  className="bg-amber-100 dark:bg-amber-900 w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center mx-auto mb-4"
+                  className="bg-slate-100 dark:bg-slate-900 w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center mx-auto mb-4"
                 >
-                  <Lightbulb className="h-6 w-6 md:h-7 md:w-7 text-amber-600 dark:text-amber-400" />
+                  <Lightbulb className="h-6 w-6 md:h-7 md:w-7 text-slate-600 dark:text-slate-400" />
                 </motion.div>
                 <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-gray-900 dark:text-white">
                   Our Core Values
@@ -208,7 +208,7 @@ export default function Home() {
                 </p>
                 <Link href="/contact">
                   <AnimatedButton
-                    className="bg-amber-500 hover:bg-amber-600 text-white font-semibold"
+                    className="bg-slate-500 hover:bg-slate-600 text-white font-semibold"
                     hoverEffect="shine"
                     iconRotate={true}
                   >
@@ -232,9 +232,9 @@ export default function Home() {
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
                     transition={{ duration: 0.3 }}
-                    className="bg-amber-100 dark:bg-amber-900 w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+                    className="bg-slate-100 dark:bg-slate-900 w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mx-auto mb-4"
                   >
-                    <HardHat className="h-7 w-7 md:h-8 md:w-8 text-amber-600 dark:text-amber-400" />
+                    <HardHat className="h-7 w-7 md:h-8 md:w-8 text-slate-600 dark:text-slate-400" />
                   </motion.div>
                   <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3 text-gray-900 dark:text-white">
                     Engineer-Led
@@ -249,9 +249,9 @@ export default function Home() {
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
                     transition={{ duration: 0.3 }}
-                    className="bg-amber-100 dark:bg-amber-900 w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+                    className="bg-slate-100 dark:bg-slate-900 w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mx-auto mb-4"
                   >
-                    <Hammer className="h-7 w-7 md:h-8 md:w-8 text-amber-600 dark:text-amber-400" />
+                    <Hammer className="h-7 w-7 md:h-8 md:w-8 text-slate-600 dark:text-slate-400" />
                   </motion.div>
                   <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3 text-gray-900 dark:text-white">
                     Transparent Costing
@@ -266,9 +266,9 @@ export default function Home() {
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
                     transition={{ duration: 0.3 }}
-                    className="bg-amber-100 dark:bg-amber-900 w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+                    className="bg-slate-100 dark:bg-slate-900 w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mx-auto mb-4"
                   >
-                    <Compass className="h-7 w-7 md:h-8 md:w-8 text-amber-600 dark:text-amber-400" />
+                    <Compass className="h-7 w-7 md:h-8 md:w-8 text-slate-600 dark:text-slate-400" />
                   </motion.div>
                   <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3 text-gray-900 dark:text-white">
                     Modern Technology
@@ -284,7 +284,7 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-10 md:py-16 bg-amber-500 dark:bg-amber-600">
+      <section className="py-10 md:py-16 bg-slate-500 dark:bg-slate-600">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-8 text-center max-w-5xl mx-auto">
             <FadeIn direction="up" delay={0.1}>
@@ -334,21 +334,21 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
               <Link href="/contact" className="w-full sm:w-auto">
-                <HoverButton
-                  size="lg"
-                  className="bg-amber-500 hover:bg-amber-600 text-white font-semibold px-6 md:px-8 w-full sm:w-auto"
-                  hoverEffect="ripple"
-                >
+                  <HoverButton
+                    size="lg"
+                    className="bg-slate-700 hover:bg-slate-800 text-white font-semibold px-6 md:px-8 w-full sm:w-auto"
+                    hoverEffect="ripple"
+                  >
                   Get a Free Consultation
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </HoverButton>
               </Link>
               <Link href="/contact" className="w-full sm:w-auto">
-                <HoverButton
-                  size="lg"
-                  className="bg-transparent border-2 border-amber-500 text-amber-400 hover:bg-amber-500 hover:text-white font-semibold px-6 md:px-8 w-full sm:w-auto transition-all duration-300"
-                  hoverEffect="glow"
-                >
+                  <HoverButton
+                    size="lg"
+                    className="bg-transparent border-2 border-slate-400 text-slate-300 hover:bg-slate-500 hover:text-white font-semibold px-6 md:px-8 w-full sm:w-auto transition-all duration-300"
+                    hoverEffect="glow"
+                  >
                   Contact Our Team
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </HoverButton>

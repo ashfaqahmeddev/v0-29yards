@@ -30,7 +30,7 @@ export default function CommercialServicePage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
             <div>
-              <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 rounded-full text-sm font-medium mb-4">
+              <div className="inline-block px-4 py-2 bg-slate-100 text-slate-700 rounded-full text-sm font-medium mb-4">
                 Commercial Services
               </div>
               <h2 className="text-4xl font-bold mb-6">Building Business Spaces That Work</h2>
@@ -44,7 +44,7 @@ export default function CommercialServicePage() {
                 management, and minimal disruption to ongoing business operations.
               </p>
               <Link href="/contact">
-                <Button className="bg-amber-500 hover:bg-amber-600 text-black">
+                <Button className="bg-slate-500 hover:bg-slate-600 text-black">
                   Get a Free Consultation
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -61,7 +61,7 @@ export default function CommercialServicePage() {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 max-w-3xl mx-auto">
-            <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 rounded-full text-sm font-medium mb-4">
+            <div className="inline-block px-4 py-2 bg-slate-100 text-slate-700 rounded-full text-sm font-medium mb-4">
               What We Offer
             </div>
             <h2 className="text-4xl font-bold mb-6">Our Commercial Services</h2>
@@ -72,15 +72,15 @@ export default function CommercialServicePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
             {commercialServices.map((service, index) => (
               <div key={index} className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
-                <div className="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                  <service.icon className="h-8 w-8 text-amber-600" />
+                <div className="bg-slate-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                  <service.icon className="h-8 w-8 text-slate-600" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
                 <p className="text-gray-700 mb-6">{service.description}</p>
                 <ul className="space-y-3">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-amber-500 mr-2 mt-1 flex-shrink-0" />
+                      <CheckCircle className="h-5 w-5 text-slate-500 mr-2 mt-1 flex-shrink-0" />
                       <span className="text-gray-700">{feature}</span>
                     </li>
                   ))}
@@ -95,7 +95,7 @@ export default function CommercialServicePage() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 max-w-3xl mx-auto">
-            <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 rounded-full text-sm font-medium mb-4">
+            <div className="inline-block px-4 py-2 bg-slate-100 text-slate-700 rounded-full text-sm font-medium mb-4">
               Our Process
             </div>
             <h2 className="text-4xl font-bold mb-6">How We Execute Commercial Projects</h2>
@@ -105,7 +105,7 @@ export default function CommercialServicePage() {
           </div>
           <div className="max-w-5xl mx-auto">
             <div className="relative">
-              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-amber-200 hidden md:block"></div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-slate-200 hidden md:block"></div>
               <div className="space-y-12 relative">
                 {processSteps.map((step, index) => (
                   <div
@@ -114,13 +114,13 @@ export default function CommercialServicePage() {
                   >
                     <div className="md:w-1/2 relative">
                       <div className="bg-gray-50 p-8 rounded-2xl shadow-sm relative z-10">
-                        <div className="bg-amber-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                          <span className="text-amber-700 font-bold text-xl">{index + 1}</span>
+                        <div className="bg-slate-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                          <span className="text-slate-700 font-bold text-xl">{index + 1}</span>
                         </div>
                         <h3 className="text-2xl font-bold mb-4">{step.title}</h3>
                         <p className="text-gray-700">{step.description}</p>
                       </div>
-                      <div className="absolute top-1/2 left-0 md:left-auto md:right-0 transform translate-y-[-50%] translate-x-[-50%] md:translate-x-[50%] w-6 h-6 bg-amber-500 rounded-full border-4 border-white z-20 hidden md:block"></div>
+                      <div className="absolute top-1/2 left-0 md:left-auto md:right-0 transform translate-y-[-50%] translate-x-[-50%] md:translate-x-[50%] w-6 h-6 bg-slate-500 rounded-full border-4 border-white z-20 hidden md:block"></div>
                     </div>
                     <div className="md:w-1/2 hidden md:block"></div>
                   </div>
@@ -140,7 +140,7 @@ export default function CommercialServicePage() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-black font-medium px-8">
+              <Button size="lg" className="bg-slate-500 hover:bg-slate-600 text-black font-medium px-8">
                 Get a Free Quote
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
