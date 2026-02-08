@@ -2,39 +2,39 @@
 @import "tw-animate-css";
 
 :root {
-  --background: oklch(0.97 0 0); /* Light Grey-White */
-  --foreground: oklch(0.15 0 0); /* Deep Black */
-  --card: oklch(1 0 0); /* Pure White */
-  --card-foreground: oklch(0.15 0 0); /* Deep Black */
-  --popover: oklch(1 0 0); /* Pure White */
-  --popover-foreground: oklch(0.15 0 0); /* Deep Black */
-  --primary: oklch(0.25 0 0); /* Charcoal Black */
-  --primary-foreground: oklch(0.98 0 0); /* Off White */
-  --secondary: oklch(0.65 0 0); /* Medium Grey */
-  --secondary-foreground: oklch(0.98 0 0); /* Off White */
-  --muted: oklch(0.9 0 0); /* Light Grey */
-  --muted-foreground: oklch(0.45 0 0); /* Dark Grey */
-  --accent: oklch(0.55 0.15 255); /* Slate Blue Accent */
-  --accent-foreground: oklch(1 0 0); /* White */
-  --destructive: oklch(0.577 0.245 27.325); /* Red */
-  --destructive-foreground: oklch(0.985 0 0); /* White */
-  --border: oklch(0.92 0 0); /* Light Border Grey */
-  --input: oklch(0.97 0 0); /* Input Grey */
-  --ring: oklch(0.55 0.15 255); /* Slate Blue Ring */
+  --background: #F3F3F3; /* Very Light Grey */
+  --foreground: #131313; /* Near Black */
+  --card: #FFFFFF; /* Pure White */
+  --card-foreground: #131313; /* Near Black */
+  --popover: #FFFFFF; /* Pure White */
+  --popover-foreground: #131313; /* Near Black */
+  --primary: #3C3C3C; /* Very Dark Grey */
+  --primary-foreground: #F3F3F3; /* Very Light Grey */
+  --secondary: #646464; /* Dark Grey */
+  --secondary-foreground: #FFFFFF; /* White */
+  --muted: #B5B5B5; /* Silver/Light Grey */
+  --muted-foreground: #3C3C3C; /* Very Dark Grey */
+  --accent: #646464; /* Dark Grey - Primary accent */
+  --accent-foreground: #FFFFFF; /* White */
+  --destructive: #DC2626; /* Red for destructive actions */
+  --destructive-foreground: #FFFFFF; /* White */
+  --border: #E5E5E5; /* Very Light Border */
+  --input: #FFFFFF; /* White for inputs */
+  --ring: #646464; /* Dark Grey for focus ring */
   --radius: 0.75rem;
-  --chart-1: oklch(0.25 0 0); /* Black */
-  --chart-2: oklch(0.55 0.15 255); /* Slate Blue */
-  --chart-3: oklch(0.65 0 0); /* Medium Grey */
-  --chart-4: oklch(0.4 0 0); /* Dark Grey */
-  --chart-5: oklch(0.55 0.15 255); /* Slate Blue */
-  --sidebar: oklch(0.97 0 0); /* Light Grey */
-  --sidebar-foreground: oklch(0.15 0 0); /* Deep Black */
-  --sidebar-primary: oklch(0.25 0 0); /* Charcoal */
-  --sidebar-primary-foreground: oklch(0.98 0 0); /* Off White */
-  --sidebar-accent: oklch(0.55 0.15 255); /* Slate Blue */
-  --sidebar-accent-foreground: oklch(1 0 0); /* White */
-  --sidebar-border: oklch(0.9 0 0); /* Border Grey */
-  --sidebar-ring: oklch(0.55 0.15 255); /* Slate Blue Ring */
+  --chart-1: #131313; /* Near Black */
+  --chart-2: #3C3C3C; /* Very Dark Grey */
+  --chart-3: #646464; /* Dark Grey */
+  --chart-4: #B5B5B5; /* Silver */
+  --chart-5: #F3F3F3; /* Very Light Grey */
+  --sidebar: #F3F3F3; /* Very Light Grey */
+  --sidebar-foreground: #131313; /* Near Black */
+  --sidebar-primary: #3C3C3C; /* Very Dark Grey */
+  --sidebar-primary-foreground: #F3F3F3; /* Very Light Grey */
+  --sidebar-accent: #646464; /* Dark Grey */
+  --sidebar-accent-foreground: #FFFFFF; /* White */
+  --sidebar-border: #E5E5E5; /* Very Light Border */
+  --sidebar-ring: #646464; /* Dark Grey Ring */
 }
 
 @theme inline {
