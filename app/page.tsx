@@ -53,7 +53,7 @@ export default function Home() {
               </motion.div>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6 drop-shadow-md">
-                Quality Spaces with <span className="text-slate-600">Engineering Excellence</span>
+                Quality Spaces with <span className="text-gray-900">Engineering Excellence</span>
               </h1>
 
               <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 md:mb-10 max-w-xl md:max-w-2xl mx-auto drop-shadow-md">
