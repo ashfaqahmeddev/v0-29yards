@@ -31,7 +31,7 @@ export default function AboutPage() {
       <section className="py-16 md:py-24 lg:py-32 bg-white dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12 md:mb-20 max-w-3xl mx-auto">
-            <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300 rounded-full text-sm font-medium mb-4">
+            <div className="inline-block px-4 py-2 bg-slate-100 text-slate-700 dark:bg-slate-900 dark:text-slate-300 rounded-full text-sm font-medium mb-4">
               Our Purpose
             </div>
             <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Mission & Vision</h2>
@@ -45,8 +45,8 @@ export default function AboutPage() {
             <FadeIn direction="left" delay={0.2}>
               <div className="bg-gray-50 dark:bg-gray-800 p-6 md:p-8 lg:p-10 rounded-2xl shadow-md">
                 <div className="flex items-center mb-6">
-                  <div className="bg-amber-100 dark:bg-amber-900 w-14 h-14 rounded-full flex items-center justify-center mr-4">
-                    <Target className="h-7 w-7 text-amber-600 dark:text-amber-400" />
+                  <div className="bg-slate-100 dark:bg-slate-900 w-14 h-14 rounded-full flex items-center justify-center mr-4">
+                    <Target className="h-7 w-7 text-slate-600 dark:text-slate-400" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Our Mission</h3>
                 </div>
@@ -56,21 +56,21 @@ export default function AboutPage() {
                 </p>
                 <ul className="space-y-4 md:space-y-6">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-500 mr-3 mt-1 flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-slate-500 mr-3 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 dark:text-gray-300">
                       Creating safe, sustainable, and functional spaces that enhance the quality of life for those who
                       use them
                     </p>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-500 mr-3 mt-1 flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-slate-500 mr-3 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 dark:text-gray-300">
                       Fostering a culture of excellence, continuous improvement, and professional growth among our team
                       members
                     </p>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-500 mr-3 mt-1 flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-slate-500 mr-3 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 dark:text-gray-300">
                       Building lasting relationships with clients, partners, and communities through transparent
                       communication and ethical practices
@@ -83,8 +83,8 @@ export default function AboutPage() {
             <FadeIn direction="right" delay={0.2}>
               <div className="bg-gray-50 dark:bg-gray-800 p-6 md:p-8 lg:p-10 rounded-2xl shadow-md">
                 <div className="flex items-center mb-6">
-                  <div className="bg-amber-100 dark:bg-amber-900 w-14 h-14 rounded-full flex items-center justify-center mr-4">
-                    <Eye className="h-7 w-7 text-amber-600 dark:text-amber-400" />
+                  <div className="bg-slate-100 dark:bg-slate-900 w-14 h-14 rounded-full flex items-center justify-center mr-4">
+                    <Eye className="h-7 w-7 text-slate-600 dark:text-slate-400" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Our Vision</h3>
                 </div>
@@ -93,20 +93,20 @@ export default function AboutPage() {
                 </p>
                 <ul className="space-y-4 md:space-y-6">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-500 mr-3 mt-1 flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-slate-500 mr-3 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 dark:text-gray-300">
                       Setting new standards of excellence in construction quality, safety, and client satisfaction
                     </p>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-500 mr-3 mt-1 flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-slate-500 mr-3 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 dark:text-gray-300">
                       Pioneering sustainable building practices that minimize environmental impact while maximizing
                       efficiency and durability
                     </p>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-amber-500 mr-3 mt-1 flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-slate-500 mr-3 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 dark:text-gray-300">
                       Creating positive change in the communities where we work through responsible business practices
                       and meaningful engagement
@@ -119,9 +119,9 @@ export default function AboutPage() {
 
           <ScaleIn delay={0.6}>
             <div className="mt-12 md:mt-20 text-center">
-              <div className="bg-amber-50 dark:bg-amber-900/30 p-6 md:p-8 lg:p-10 rounded-2xl max-w-3xl mx-auto">
-                <div className="bg-amber-100 dark:bg-amber-900 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Lightbulb className="h-7 w-7 text-amber-600 dark:text-amber-400" />
+              <div className="bg-slate-50 dark:bg-slate-900/30 p-6 md:p-8 lg:p-10 rounded-2xl max-w-3xl mx-auto">
+                <div className="bg-slate-100 dark:bg-slate-900 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Lightbulb className="h-7 w-7 text-slate-600 dark:text-slate-400" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Our Approach</h3>
                 <p className="text-gray-700 dark:text-gray-300 text-lg mb-6">
@@ -129,7 +129,7 @@ export default function AboutPage() {
                   project is managed directly by engineers, ensuring accuracy, quality, and confidence for our clients.
                 </p>
                 <Link href="/contact">
-                  <Button className="bg-amber-500 hover:bg-amber-600 text-black font-semibold">
+                  <Button className="bg-slate-500 hover:bg-slate-600 text-black font-semibold">
                     Partner With Us
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
@@ -145,7 +145,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-10 md:gap-16 lg:gap-20 items-center max-w-6xl mx-auto">
             <div>
-              <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300 rounded-full text-sm font-medium mb-4">
+              <div className="inline-block px-4 py-2 bg-slate-100 text-slate-700 dark:bg-slate-900 dark:text-slate-300 rounded-full text-sm font-medium mb-4">
                 Our Story
               </div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">
@@ -167,7 +167,7 @@ export default function AboutPage() {
                 quality craftsmanship, and direct founder involvement.
               </p>
               <Link href="/contact">
-                <Button className="bg-amber-500 hover:bg-amber-600 text-black font-semibold">
+                <Button className="bg-slate-500 hover:bg-slate-600 text-black font-semibold">
                   Get in Touch
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -184,7 +184,7 @@ export default function AboutPage() {
       <section className="py-16 md:py-24 lg:py-32 bg-white dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12 md:mb-20 max-w-3xl mx-auto">
-            <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300 rounded-full text-sm font-medium mb-4">
+            <div className="inline-block px-4 py-2 bg-slate-100 text-slate-700 dark:bg-slate-900 dark:text-slate-300 rounded-full text-sm font-medium mb-4">
               Our Values
             </div>
             <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">Six Core Values</h2>
@@ -195,8 +195,8 @@ export default function AboutPage() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10 max-w-6xl mx-auto">
             <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow text-center">
-              <div className="bg-amber-100 dark:bg-amber-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Award className="h-8 w-8 text-amber-600 dark:text-amber-400" />
+              <div className="bg-slate-100 dark:bg-slate-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Award className="h-8 w-8 text-slate-600 dark:text-slate-400" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Quality First</h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -205,8 +205,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow text-center">
-              <div className="bg-amber-100 dark:bg-amber-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Wrench className="h-8 w-8 text-amber-600 dark:text-amber-400" />
+              <div className="bg-slate-100 dark:bg-slate-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Wrench className="h-8 w-8 text-slate-600 dark:text-slate-400" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Engineering Integrity</h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -214,8 +214,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow text-center">
-              <div className="bg-amber-100 dark:bg-amber-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Compass className="h-8 w-8 text-amber-600 dark:text-amber-400" />
+              <div className="bg-slate-100 dark:bg-slate-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Compass className="h-8 w-8 text-slate-600 dark:text-slate-400" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Technology-Driven</h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -223,8 +223,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow text-center">
-              <div className="bg-amber-100 dark:bg-amber-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <CheckCircle className="h-8 w-8 text-amber-600 dark:text-amber-400" />
+              <div className="bg-slate-100 dark:bg-slate-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <CheckCircle className="h-8 w-8 text-slate-600 dark:text-slate-400" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Safety Commitment</h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -232,8 +232,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow text-center">
-              <div className="bg-amber-100 dark:bg-amber-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Target className="h-8 w-8 text-amber-600 dark:text-amber-400" />
+              <div className="bg-slate-100 dark:bg-slate-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Target className="h-8 w-8 text-slate-600 dark:text-slate-400" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Accountability</h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -241,8 +241,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow text-center">
-              <div className="bg-amber-100 dark:bg-amber-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Eye className="h-8 w-8 text-amber-600 dark:text-amber-400" />
+              <div className="bg-slate-100 dark:bg-slate-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Eye className="h-8 w-8 text-slate-600 dark:text-slate-400" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Client Focus</h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -257,7 +257,7 @@ export default function AboutPage() {
       <section className="py-16 md:py-24 lg:py-32 bg-gray-50 dark:bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12 md:mb-20 max-w-3xl mx-auto">
-            <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300 rounded-full text-sm font-medium mb-4">
+            <div className="inline-block px-4 py-2 bg-slate-100 text-slate-700 dark:bg-slate-900 dark:text-slate-300 rounded-full text-sm font-medium mb-4">
               Quality & Compliance
             </div>
             <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">ISO Certified</h2>
@@ -267,8 +267,8 @@ export default function AboutPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8 lg:gap-10 max-w-5xl mx-auto">
             <div className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-md text-center">
-              <div className="bg-amber-100 dark:bg-amber-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Award className="h-8 w-8 text-amber-600 dark:text-amber-400" />
+              <div className="bg-slate-100 dark:bg-slate-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Award className="h-8 w-8 text-slate-600 dark:text-slate-400" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">ISO 9001:2015</h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -276,8 +276,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-md text-center">
-              <div className="bg-amber-100 dark:bg-amber-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Award className="h-8 w-8 text-amber-600 dark:text-amber-400" />
+              <div className="bg-slate-100 dark:bg-slate-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Award className="h-8 w-8 text-slate-600 dark:text-slate-400" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">ISO 14001:2015</h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -285,8 +285,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-md text-center">
-              <div className="bg-amber-100 dark:bg-amber-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Award className="h-8 w-8 text-amber-600 dark:text-amber-400" />
+              <div className="bg-slate-100 dark:bg-slate-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Award className="h-8 w-8 text-slate-600 dark:text-slate-400" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">ISO 45001:2018</h3>
               <p className="text-gray-700 dark:text-gray-300">
@@ -298,7 +298,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-12 md:py-20 lg:py-28 bg-amber-500 dark:bg-amber-600">
+      <section className="py-12 md:py-20 lg:py-28 bg-slate-500 dark:bg-slate-600">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 lg:gap-12 text-center max-w-5xl mx-auto">
             <FadeIn direction="up" delay={0.1}>
@@ -339,7 +339,7 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-black font-semibold px-8">
+              <Button size="lg" className="bg-slate-500 hover:bg-slate-600 text-black font-semibold px-8">
                 Contact Us
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
@@ -348,7 +348,7 @@ export default function AboutPage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="text-white border-white hover:bg-white/10 font-semibold px-8 bg-transparent"
+                className="text-[#646464] border-[#646464] hover:bg-[#646464]/10 font-semibold px-8 bg-transparent"
               >
                 View Our Projects
                 <ArrowRight className="ml-2 h-4 w-4" />

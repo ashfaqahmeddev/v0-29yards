@@ -123,7 +123,7 @@ export function Navbar() {
                 <motion.div
                   whileHover={{ rotate: 15, scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  className="bg-amber-500 text-white p-1.5 sm:p-2 rounded-lg"
+                  className="bg-[#3C3C3C] text-white p-1.5 sm:p-2 rounded-lg"
                 >
                   <HardHat className="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7" />
                 </motion.div>
@@ -131,7 +131,7 @@ export function Navbar() {
                   <motion.span
                     className="text-lg sm:text-xl md:text-2xl font-bold text-foreground leading-none"
                     initial={{ opacity: 1 }}
-                    whileHover={{ scale: 1.03, color: "#F59E0B" }}
+                    whileHover={{ scale: 1.03, color: "#646464" }}
                     transition={{ duration: 0.2 }}
                   >
                     <span className="inline xs:hidden">29Yards</span>
@@ -202,7 +202,7 @@ export function Navbar() {
             <div className="hidden md:flex items-center gap-2 lg:gap-4">
               <Link href="/contact#quote-form">
                 <AnimatedButton
-                  className="bg-amber-600 hover:bg-amber-700 text-white font-medium text-sm sm:text-base h-9 sm:h-10 transition-all duration-300 shadow-md hover:shadow-lg"
+                  className="bg-[#3C3C3C] hover:bg-[#646464] text-white font-medium text-sm sm:text-base h-9 sm:h-10 transition-all duration-300 shadow-md hover:shadow-lg"
                   hoverEffect="lift"
                   iconAnimation={true}
                 >
@@ -218,13 +218,13 @@ export function Navbar() {
               <Button
                 variant="ghost"
                 size="icon"
-                className="h-8 w-8 sm:h-9 sm:w-9 bg-amber-50"
+                className="h-8 w-8 sm:h-9 sm:w-9 bg-[#F3F3F3]"
                 onClick={toggleMobileMenu}
                 aria-expanded={mobileMenuOpen}
                 aria-label="Toggle menu"
                 type="button"
               >
-                <Menu className="h-4 w-4 sm:h-5 sm:w-5 text-amber-600" />
+                <Menu className="h-4 w-4 sm:h-5 sm:w-5 text-[#3C3C3C]" />
               </Button>
             </div>
           </div>
@@ -257,16 +257,16 @@ function NavItem({
     <li>
       <Link
         href={href}
-        className={`relative px-2 sm:px-3 py-1.5 sm:py-2 rounded-md text-sm sm:text-base font-medium transition-colors flex items-center focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2 ${
+        className={`relative px-2 sm:px-3 py-1.5 sm:py-2 rounded-md text-sm sm:text-base font-medium transition-colors flex items-center focus:outline-none focus:ring-2 focus:ring-[#646464] focus:ring-offset-2 ${
           isActive
-            ? "text-amber-500 dark:text-amber-400"
-            : "text-foreground hover:text-amber-500 hover:bg-amber-50/50 dark:hover:bg-amber-900/10"
+            ? "text-[#646464]"
+            : "text-foreground hover:text-[#646464] hover:bg-[#F3F3F3]/50"
         }`}
         onMouseEnter={onHover}
         onMouseLeave={onLeave}
       >
         <motion.span
-          animate={isHovered && !isActive ? { y: -2, color: "#F59E0B" } : { y: 0 }}
+          animate={isHovered && !isActive ? { y: -2, color: "#646464" } : { y: 0 }}
           transition={{ type: "spring", stiffness: 400, damping: 15 }}
           className="inline-block"
         >
@@ -274,7 +274,7 @@ function NavItem({
         </motion.span>
         {isActive && (
           <motion.div
-            className="absolute bottom-0 left-0 right-0 h-0.5 bg-amber-500"
+            className="absolute bottom-0 left-0 right-0 h-0.5 bg-chart-2"
             layoutId="navbar-underline"
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
           />
@@ -336,8 +336,8 @@ function DropdownNavItem({
       <button
         className={`relative px-2 sm:px-3 py-1.5 sm:py-2 rounded-md text-sm sm:text-base font-medium transition-colors flex items-center ${
           isActive
-            ? "text-amber-500"
-            : "text-foreground hover:text-amber-500 hover:bg-amber-50/50 dark:hover:bg-amber-900/10"
+            ? "text-[#646464]"
+            : "text-foreground hover:text-[#646464] hover:bg-[#F3F3F3]/50"
         }`}
         onMouseEnter={onHover}
         onMouseLeave={onLeave}
@@ -348,7 +348,7 @@ function DropdownNavItem({
         type="button"
       >
         <motion.span
-          animate={isHovered && !isActive ? { y: -2, color: "#F59E0B" } : { y: 0 }}
+          animate={isHovered && !isActive ? { y: -2, color: "#646464" } : { y: 0 }}
           transition={{ type: "spring", stiffness: 400, damping: 15 }}
           className="inline-flex items-center gap-1"
         >
@@ -359,7 +359,7 @@ function DropdownNavItem({
         </motion.span>
         {isActive && (
           <motion.div
-            className="absolute bottom-0 left-0 right-0 h-0.5 bg-amber-500"
+            className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#646464]"
             layoutId="navbar-underline"
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
           />
@@ -384,8 +384,8 @@ function DropdownNavItem({
                 href={item.href}
                 className={`block cursor-pointer text-sm sm:text-base py-1.5 sm:py-2 px-2.5 sm:px-3 rounded-lg ${
                   pathname === item.href
-                    ? "text-amber-600 bg-amber-50"
-                    : "text-gray-800 hover:text-amber-600 hover:bg-amber-50"
+                    ? "text-[#646464] bg-[#F3F3F3]"
+                    : "text-[#131313] hover:text-[#646464] hover:bg-[#F3F3F3]"
                 }`}
                 onClick={() => setIsOpen(false)}
                 role="menuitem"

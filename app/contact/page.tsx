@@ -28,7 +28,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 lg:gap-16 max-w-6xl mx-auto">
             <div>
-              <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 rounded-full text-sm font-medium mb-4 md:mb-6">
+              <div className="inline-block px-4 py-2 bg-slate-100 text-slate-700 rounded-full text-sm font-medium mb-4 md:mb-6">
                 Get In Touch
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">We'd Love to Hear From You</h2>
@@ -38,8 +38,8 @@ export default function ContactPage() {
               </p>
               <div className="space-y-5 md:space-y-6 lg:space-y-8">
                 <div className="flex items-start">
-                  <div className="bg-amber-100 p-3 rounded-full mr-4 flex-shrink-0">
-                    <MapPin className="h-5 w-5 md:h-6 md:w-6 text-amber-600" />
+                  <div className="bg-slate-100 p-3 rounded-full mr-4 flex-shrink-0">
+                    <MapPin className="h-5 w-5 md:h-6 md:w-6 text-slate-600" />
                   </div>
                   <div className="min-w-0">
                     <h3 className="font-semibold text-base md:text-lg">Location</h3>
@@ -47,8 +47,8 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-amber-100 p-3 rounded-full mr-4 flex-shrink-0">
-                    <Phone className="h-5 w-5 md:h-6 md:w-6 text-amber-600" />
+                  <div className="bg-slate-100 p-3 rounded-full mr-4 flex-shrink-0">
+                    <Phone className="h-5 w-5 md:h-6 md:w-6 text-slate-600" />
                   </div>
                   <div className="min-w-0">
                     <h3 className="font-semibold text-base md:text-lg">Phone Number</h3>
@@ -56,8 +56,8 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-amber-100 p-3 rounded-full mr-4 flex-shrink-0">
-                    <Mail className="h-5 w-5 md:h-6 md:w-6 text-amber-600" />
+                  <div className="bg-slate-100 p-3 rounded-full mr-4 flex-shrink-0">
+                    <Mail className="h-5 w-5 md:h-6 md:w-6 text-slate-600" />
                   </div>
                   <div className="min-w-0">
                     <h3 className="font-semibold text-base md:text-lg">Email Address</h3>
@@ -65,8 +65,8 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-amber-100 p-3 rounded-full mr-4 flex-shrink-0">
-                    <Clock className="h-5 w-5 md:h-6 md:w-6 text-amber-600" />
+                  <div className="bg-slate-100 p-3 rounded-full mr-4 flex-shrink-0">
+                    <Clock className="h-5 w-5 md:h-6 md:w-6 text-slate-600" />
                   </div>
                   <div className="min-w-0">
                     <h3 className="font-semibold text-base md:text-lg">Availability</h3>
@@ -96,7 +96,7 @@ export default function ContactPage() {
       <section className="py-16 md:py-24 lg:py-32 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12 md:mb-20 max-w-3xl mx-auto">
-            <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 rounded-full text-sm font-medium mb-4 md:mb-6">
+            <div className="inline-block px-4 py-2 bg-slate-100 text-slate-700 rounded-full text-sm font-medium mb-4 md:mb-6">
               FAQ
             </div>
             <h2 className="text-4xl font-bold mb-6">Frequently Asked Questions</h2>
