@@ -348,7 +348,7 @@ export default function AboutPage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="text-white border-white hover:bg-white/10 font-semibold px-8 bg-transparent"
+                className="text-[#646464] border-[#646464] hover:bg-[#646464]/10 font-semibold px-8 bg-transparent"
               >
                 View Our Projects
                 <ArrowRight className="ml-2 h-4 w-4" />

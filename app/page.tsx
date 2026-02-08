@@ -77,12 +77,12 @@ export default function Home() {
                   <HoverButton
                     size="lg"
                     variant="outline"
-                    className="text-gray-300 border-2 border-gray-300 hover:bg-gray-300 hover:text-gray-900 font-semibold px-6 sm:px-8 w-full sm:w-auto transition-all duration-300"
+                    className="text-[#646464] border-2 border-[#646464] hover:bg-[#646464] hover:text-white font-semibold px-6 sm:px-8 w-full sm:w-auto transition-all duration-300"
                     hoverEffect="glow"
-                    rippleColor="rgba(255, 255, 255, 0.3)"
+                    rippleColor="rgba(100, 100, 100, 0.3)"
                   >
                     View Projects
-                    <ChevronRight className="ml-2 h-4 w-4 text-card-foreground" />
+                    <ChevronRight className="ml-2 h-4 w-4" />
                   </HoverButton>
                 </Link>
               </div>

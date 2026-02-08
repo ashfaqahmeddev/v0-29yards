@@ -218,7 +218,7 @@ export default function ResidentialServicePage() {
             <Link href="/projects">
               <Button
                 variant="outline"
-                className="border-amber-500 text-slate-500 hover:bg-slate-500 hover:text-white font-medium px-8 bg-transparent"
+                className="border-[#646464] text-[#646464] hover:bg-[#646464] hover:text-white font-medium px-8 bg-transparent"
               >
                 View All Projects
                 <ArrowRight className="ml-2 h-4 w-4" />
