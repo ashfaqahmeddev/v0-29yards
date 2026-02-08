@@ -223,57 +223,57 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-10 md:py-16 bg-[#F3F3F3] dark:bg-[#3C3C3C]">
+      <section className="py-10 md:py-16 bg-[#131313]">
         <div className="container mx-auto px-4">
           <StaggerIn direction="up" staggerDelay={0.1}>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-5xl mx-auto">
               <HoverCard>
-                <div className="bg-white dark:bg-[#3C3C3C] p-6 md:p-8 rounded-xl text-center shadow-sm hover:shadow-md transition-shadow border border-[#E5E5E5] dark:border-[#646464]">
+                <div className="bg-white p-6 md:p-8 rounded-xl text-center shadow-sm hover:shadow-md transition-shadow border border-[#E5E5E5]">
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
                     transition={{ duration: 0.3 }}
-                    className="bg-[#E5E5E5] dark:bg-[#646464] w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+                    className="bg-[#E5E5E5] w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mx-auto mb-4"
                   >
-                    <HardHat className="h-7 w-7 md:h-8 md:w-8 text-[#3C3C3C] dark:text-white" />
+                    <HardHat className="h-7 w-7 md:h-8 md:w-8 text-[#3C3C3C]" />
                   </motion.div>
-                  <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3 text-[#131313] dark:text-white">
+                  <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3 text-[#131313]">
                     Engineer-Led
                   </h3>
-                  <p className="text-[#3C3C3C] dark:text-[#B5B5B5] text-sm sm:text-base">
+                  <p className="text-[#3C3C3C] text-sm sm:text-base">
                     Projects managed directly by qualified civil engineers with field and design expertise.
                   </p>
                 </div>
               </HoverCard>
               <HoverCard>
-                <div className="bg-white dark:bg-[#3C3C3C] p-6 md:p-8 rounded-xl text-center shadow-sm hover:shadow-md transition-shadow border border-[#E5E5E5] dark:border-[#646464]">
+                <div className="bg-white p-6 md:p-8 rounded-xl text-center shadow-sm hover:shadow-md transition-shadow border border-[#E5E5E5]">
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
                     transition={{ duration: 0.3 }}
-                    className="bg-[#E5E5E5] dark:bg-[#646464] w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+                    className="bg-[#E5E5E5] w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mx-auto mb-4"
                   >
-                    <Hammer className="h-7 w-7 md:h-8 md:w-8 text-[#3C3C3C] dark:text-white" />
+                    <Hammer className="h-7 w-7 md:h-8 md:w-8 text-[#3C3C3C]" />
                   </motion.div>
-                  <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3 text-[#131313] dark:text-white">
+                  <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3 text-[#131313]">
                     Transparent Costing
                   </h3>
-                  <p className="text-[#3C3C3C] dark:text-[#B5B5B5] text-sm sm:text-base">
+                  <p className="text-[#3C3C3C] text-sm sm:text-base">
                     Clear BOQs, stage-wise billing, and no hidden costs throughout the project lifecycle.
                   </p>
                 </div>
               </HoverCard>
               <HoverCard className="sm:col-span-2 md:col-span-1">
-                <div className="bg-white dark:bg-[#3C3C3C] p-6 md:p-8 rounded-xl text-center shadow-sm hover:shadow-md transition-shadow border border-[#E5E5E5] dark:border-[#646464]">
+                <div className="bg-white p-6 md:p-8 rounded-xl text-center shadow-sm hover:shadow-md transition-shadow border border-[#E5E5E5]">
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
                     transition={{ duration: 0.3 }}
-                    className="bg-[#E5E5E5] dark:bg-[#646464] w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+                    className="bg-[#E5E5E5] w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mx-auto mb-4"
                   >
-                    <Compass className="h-7 w-7 md:h-8 md:w-8 text-[#3C3C3C] dark:text-white" />
+                    <Compass className="h-7 w-7 md:h-8 md:w-8 text-[#3C3C3C]" />
                   </motion.div>
-                  <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3 text-[#131313] dark:text-white">
+                  <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-3 text-[#131313]">
                     Modern Technology
                   </h3>
-                  <p className="text-[#3C3C3C] dark:text-[#B5B5B5] text-sm sm:text-base">
+                  <p className="text-[#3C3C3C] text-sm sm:text-base">
                     BIM, ETABS, Revit, and advanced software for precision and efficient coordination.
                   </p>
                 </div>
