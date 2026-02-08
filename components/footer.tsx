@@ -85,16 +85,16 @@ export function Footer() {
           {/* Contact Information Section */}
           <div className="text-center mb-12 md:mb-16">
             <h3 className="text-lg md:text-xl font-semibold mb-8 text-white">Contact Information</h3>
-            <div className="space-y-4">
-              <div className="flex items-center justify-center gap-3">
+            <div className="space-y-4 mx-[33px]">
+              <div className="flex items-center gap-3 justify-start">
                 <MapPin className="h-5 w-5 text-[#646464] flex-shrink-0" />
                 <span className="text-gray-400 text-sm md:text-base">Vellore, Tamil Nadu, India</span>
               </div>
-              <div className="flex items-center justify-center gap-3">
+              <div className="flex items-center gap-3 justify-start">
                 <Phone className="h-5 w-5 text-[#646464] flex-shrink-0" />
                 <span className="text-gray-400 text-sm md:text-base">+91 7397611591</span>
               </div>
-              <div className="flex items-center justify-center gap-3">
+              <div className="flex items-center gap-3 justify-start">
                 <Mail className="h-5 w-5 text-[#646464] flex-shrink-0" />
                 <span className="text-gray-400 text-sm md:text-base">info@29yards.com</span>
               </div>
