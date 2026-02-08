@@ -23,7 +23,7 @@ export function Footer() {
           {/* Our Services Section */}
           <div className="text-center mb-12 md:mb-16">
             <h3 className="text-lg md:text-xl font-semibold mb-6 text-white">Our Services</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <Link
                 href="/services/residential"
                 className="text-gray-400 text-sm md:text-base hover:text-[#646464] transition-colors"
