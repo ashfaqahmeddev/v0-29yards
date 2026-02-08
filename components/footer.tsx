@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 export function Footer() {
   return (
     <footer className="bg-[#131313] text-white">
-      <div className="container py-12 md:py-16 lg:py-20 sm:py-14">
+      <div className="container py-12 md:py-16 lg:py-20 sm:py-14 ml-[50px]">
         {/* 29YARDS Section - Full Width */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 sm:mb-12">
           <div className="text-center sm:text-left">
@@ -40,9 +40,9 @@ export function Footer() {
         </div>
 
         {/* Services and Quick Links - 2 Columns on Mobile, then 4 Columns on Desktop */}
-        <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 sm:mb-12 sm:ml-[40px]">
+        <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 sm:mb-12">
           {/* Services */}
-          <div className="text-center">
+          <div className="text-center sm:text-left">
             <h3 className="text-lg font-semibold mb-4 md:mb-6 text-white">Our Services</h3>
             <ul className="space-y-2 sm:space-y-3 md:space-y-4">
               <li>
@@ -73,7 +73,7 @@ export function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div className="text-center">
+          <div className="text-center sm:text-left">
             <h3 className="text-lg font-semibold mb-4 md:mb-6 text-white">Quick Links</h3>
             <ul className="space-y-2 sm:space-y-3 md:space-y-4">
               <li>
