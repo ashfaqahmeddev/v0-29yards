@@ -7,32 +7,32 @@ export function Footer() {
   return (
     <footer className="bg-[#131313] text-white">
       <div className="container py-12 md:py-16 lg:py-20 sm:py-14">
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 gap-4 sm:gap-8 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Company Info */}
           <div className="text-center sm:text-left">
-            <Link href="/" className="flex items-center gap-2 mb-6 md:mb-8 justify-center sm:justify-start">
-              <HardHat className="h-7 w-7 text-[#646464]" />
-              <span className="text-xl font-bold text-white">29YARDS</span>
+            <Link href="/" className="flex items-center gap-2 mb-3 sm:mb-6 md:mb-8 justify-center sm:justify-start">
+              <HardHat className="h-5 w-5 sm:h-7 sm:w-7 text-[#646464]" />
+              <span className="text-base sm:text-xl font-bold text-white">29YARDS</span>
             </Link>
-            <p className="text-gray-400 mb-6 md:mb-8 text-sm sm:text-base">
+            <p className="text-gray-400 mb-3 sm:mb-6 md:mb-8 text-xs sm:text-sm md:text-base">
               Your trusted partner for innovative construction solutions. Building excellence and delivering quality
               since 2026.
             </p>
-            <div className="flex space-x-4 md:space-x-6 justify-center sm:justify-start">
+            <div className="flex space-x-2 sm:space-x-4 md:space-x-6 justify-center sm:justify-start">
               <Link href="#" className="text-gray-400 hover:text-[#646464] transition-colors">
-                <Facebook className="h-5 w-5" />
+                <Facebook className="h-4 w-4 sm:h-5 sm:w-5" />
                 <span className="sr-only">Facebook</span>
               </Link>
               <Link href="#" className="text-gray-400 hover:text-[#646464] transition-colors">
-                <Twitter className="h-5 w-5" />
+                <Twitter className="h-4 w-4 sm:h-5 sm:w-5" />
                 <span className="sr-only">Twitter</span>
               </Link>
               <Link href="#" className="text-gray-400 hover:text-[#646464] transition-colors">
-                <Instagram className="h-5 w-5" />
+                <Instagram className="h-4 w-4 sm:h-5 sm:w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
               <Link href="#" className="text-gray-400 hover:text-[#646464] transition-colors">
-                <Linkedin className="h-5 w-5" />
+                <Linkedin className="h-4 w-4 sm:h-5 sm:w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
             </div>
@@ -40,12 +40,12 @@ export function Footer() {
 
           {/* Services */}
           <div className="text-center sm:text-left">
-            <h3 className="text-lg font-semibold mb-4 md:mb-6 text-white">Our Services</h3>
-            <ul className="space-y-2 sm:space-y-3 md:space-y-4">
+            <h3 className="text-sm sm:text-lg font-semibold mb-2 sm:mb-4 md:mb-6 text-white">Our Services</h3>
+            <ul className="space-y-1 sm:space-y-2 md:space-y-4">
               <li>
                 <Link
                   href="/services/residential"
-                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
+                  className="text-gray-400 text-xs sm:text-sm md:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   Residential Construction
                 </Link>
@@ -53,7 +53,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/services/commercial"
-                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
+                  className="text-gray-400 text-xs sm:text-sm md:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   Commercial Construction
                 </Link>
@@ -61,7 +61,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/services/renovation"
-                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
+                  className="text-gray-400 text-xs sm:text-sm md:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   Renovation Services
                 </Link>
@@ -71,12 +71,12 @@ export function Footer() {
 
           {/* Quick Links */}
           <div className="text-center sm:text-left">
-            <h3 className="text-lg font-semibold mb-4 md:mb-6 text-white">Quick Links</h3>
-            <ul className="space-y-2 sm:space-y-3 md:space-y-4">
+            <h3 className="text-sm sm:text-lg font-semibold mb-2 sm:mb-4 md:mb-6 text-white">Quick Links</h3>
+            <ul className="space-y-1 sm:space-y-2 md:space-y-4">
               <li>
                 <Link
                   href="/about"
-                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
+                  className="text-gray-400 text-xs sm:text-sm md:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   About Us
                 </Link>
@@ -84,7 +84,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/projects"
-                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
+                  className="text-gray-400 text-xs sm:text-sm md:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   Projects
                 </Link>
@@ -92,7 +92,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/careers"
-                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
+                  className="text-gray-400 text-xs sm:text-sm md:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   Careers
                 </Link>
@@ -100,7 +100,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/faq"
-                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
+                  className="text-gray-400 text-xs sm:text-sm md:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   FAQ
                 </Link>
@@ -108,7 +108,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/contact"
-                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
+                  className="text-gray-400 text-xs sm:text-sm md:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   Contact Us
                 </Link>
@@ -118,24 +118,24 @@ export function Footer() {
 
           {/* Contact Info */}
           <div className="text-center sm:text-left">
-            <h3 className="text-lg font-semibold mb-4 md:mb-6 text-white">Contact Information</h3>
-            <ul className="space-y-3 sm:space-y-4 md:space-y-6">
+            <h3 className="text-sm sm:text-lg font-semibold mb-2 sm:mb-4 md:mb-6 text-white">Contact Information</h3>
+            <ul className="space-y-1 sm:space-y-2 md:space-y-6">
               <li className="flex items-start justify-center sm:justify-start">
-                <MapPin className="h-5 w-5 text-[#646464] mr-3 md:mr-4 mt-1 flex-shrink-0" />
-                <span className="text-gray-400 text-sm sm:text-base text-left">Vellore, Tamil Nadu, India</span>
+                <MapPin className="h-4 w-4 sm:h-5 sm:w-5 text-[#646464] mr-2 sm:mr-3 md:mr-4 mt-1 flex-shrink-0" />
+                <span className="text-gray-400 text-xs sm:text-sm md:text-base text-left">Vellore, Tamil Nadu, India</span>
               </li>
               <li className="flex items-start justify-center sm:justify-start">
-                <Phone className="h-5 w-5 text-[#646464] mr-3 md:mr-4 mt-1 flex-shrink-0" />
-                <span className="text-gray-400 text-sm sm:text-base">+91 7397611591</span>
+                <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-[#646464] mr-2 sm:mr-3 md:mr-4 mt-1 flex-shrink-0" />
+                <span className="text-gray-400 text-xs sm:text-sm md:text-base">+91 7397611591</span>
               </li>
               <li className="flex items-start justify-center sm:justify-start">
-                <Mail className="h-5 w-5 text-[#646464] mr-3 md:mr-4 mt-1 flex-shrink-0" />
-                <span className="text-gray-400 text-sm sm:text-base">info@29yards.com</span>
+                <Mail className="h-4 w-4 sm:h-5 sm:w-5 text-[#646464] mr-2 sm:mr-3 md:mr-4 mt-1 flex-shrink-0" />
+                <span className="text-gray-400 text-xs sm:text-sm md:text-base">info@29yards.com</span>
               </li>
             </ul>
-            <div className="mt-6 md:mt-8">
+            <div className="mt-3 sm:mt-6 md:mt-8">
               <Link href="/contact#quote-form">
-                <Button className="bg-[#3C3C3C] hover:bg-[#646464] text-white font-medium w-full transition-all duration-300">
+                <Button className="bg-[#3C3C3C] hover:bg-[#646464] text-white font-medium w-full text-xs sm:text-sm transition-all duration-300 py-2 sm:py-2.5">
                   Get a Free Quote
                 </Button>
               </Link>
