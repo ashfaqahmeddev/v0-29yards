@@ -21,7 +21,7 @@ export function Footer() {
           </div>
 
           {/* Main Content Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 md:gap-16 mb-12 md:mb-16">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 md:gap-16 mb-12 md:mb-16 ml-0 lg:ml-[90px]">
             {/* Column 1 - Our Services */}
             <div className="text-center lg:text-left">
               <h3 className="text-lg md:text-xl font-semibold mb-6 text-white">Our Services</h3>
