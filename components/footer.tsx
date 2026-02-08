@@ -7,8 +7,8 @@ export function Footer() {
   return (
     <footer className="bg-[#131313] text-white">
       <div className="container py-12 md:py-16 lg:py-20 sm:py-14">
-        <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Company Info */}
+        {/* 29YARDS Section - Full Width */}
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 sm:mb-12">
           <div className="text-center sm:text-left">
             <Link href="/" className="flex items-center gap-2 mb-6 md:mb-8 justify-center sm:justify-start">
               <HardHat className="h-7 w-7 text-[#646464]" />
@@ -37,7 +37,10 @@ export function Footer() {
               </Link>
             </div>
           </div>
+        </div>
 
+        {/* Services and Quick Links - 2 Columns on Mobile, then 4 Columns on Desktop */}
+        <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 sm:mb-12">
           {/* Services */}
           <div className="text-center sm:text-left">
             <h3 className="text-lg font-semibold mb-4 md:mb-6 text-white">Our Services</h3>
@@ -116,8 +119,8 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
-          <div className="text-center sm:text-left">
+          {/* Contact Info - Full Width on Mobile, 2 Columns on Desktop */}
+          <div className="col-span-2 sm:col-span-1 lg:col-span-2 text-center sm:text-left">
             <h3 className="text-lg font-semibold mb-4 md:mb-6 text-white">Contact Information</h3>
             <ul className="space-y-3 sm:space-y-4 md:space-y-6">
               <li className="flex items-start justify-center sm:justify-start">
