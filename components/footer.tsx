@@ -5,13 +5,13 @@ import { Button } from "@/components/ui/button"
 
 export function Footer() {
   return (
-    <footer className="bg-gray-900 dark:bg-gray-950 text-white">
+    <footer className="bg-[#131313] text-white">
       <div className="container py-12 md:py-16 lg:py-20 sm:py-14">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Company Info */}
           <div className="text-center sm:text-left">
             <Link href="/" className="flex items-center gap-2 mb-6 md:mb-8 justify-center sm:justify-start">
-              <HardHat className="h-7 w-7 text-amber-500" />
+              <HardHat className="h-7 w-7 text-[#646464]" />
               <span className="text-xl font-bold text-white">29YARDS</span>
             </Link>
             <p className="text-gray-400 mb-6 md:mb-8 text-sm sm:text-base">
@@ -19,19 +19,19 @@ export function Footer() {
               since 2026.
             </p>
             <div className="flex space-x-4 md:space-x-6 justify-center sm:justify-start">
-              <Link href="#" className="text-gray-400 hover:text-amber-500 transition-colors">
+              <Link href="#" className="text-gray-400 hover:text-[#646464] transition-colors">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-amber-500 transition-colors">
+              <Link href="#" className="text-gray-400 hover:text-[#646464] transition-colors">
                 <Twitter className="h-5 w-5" />
                 <span className="sr-only">Twitter</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-amber-500 transition-colors">
+              <Link href="#" className="text-gray-400 hover:text-[#646464] transition-colors">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-amber-500 transition-colors">
+              <Link href="#" className="text-gray-400 hover:text-[#646464] transition-colors">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
@@ -45,7 +45,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/services/residential"
-                  className="text-gray-400 text-sm sm:text-base hover:text-amber-500 transition-colors inline-block"
+                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   Residential Construction
                 </Link>
@@ -53,7 +53,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/services/commercial"
-                  className="text-gray-400 text-sm sm:text-base hover:text-amber-500 transition-colors inline-block"
+                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   Commercial Construction
                 </Link>
@@ -61,7 +61,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/services/renovation"
-                  className="text-gray-400 text-sm sm:text-base hover:text-amber-500 transition-colors inline-block"
+                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   Renovation Services
                 </Link>
@@ -76,7 +76,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/about"
-                  className="text-gray-400 text-sm sm:text-base hover:text-amber-500 transition-colors inline-block"
+                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   About Us
                 </Link>
@@ -84,7 +84,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/projects"
-                  className="text-gray-400 text-sm sm:text-base hover:text-amber-500 transition-colors inline-block"
+                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   Projects
                 </Link>
@@ -92,7 +92,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/careers"
-                  className="text-gray-400 text-sm sm:text-base hover:text-amber-500 transition-colors inline-block"
+                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   Careers
                 </Link>
@@ -100,7 +100,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/faq"
-                  className="text-gray-400 text-sm sm:text-base hover:text-amber-500 transition-colors inline-block"
+                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   FAQ
                 </Link>
@@ -108,7 +108,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/contact"
-                  className="text-gray-400 text-sm sm:text-base hover:text-amber-500 transition-colors inline-block"
+                  className="text-gray-400 text-sm sm:text-base hover:text-[#646464] transition-colors inline-block"
                 >
                   Contact Us
                 </Link>
@@ -121,21 +121,21 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4 md:mb-6 text-white">Contact Information</h3>
             <ul className="space-y-3 sm:space-y-4 md:space-y-6">
               <li className="flex items-start justify-center sm:justify-start">
-                <MapPin className="h-5 w-5 text-amber-500 mr-3 md:mr-4 mt-1 flex-shrink-0" />
+                <MapPin className="h-5 w-5 text-[#646464] mr-3 md:mr-4 mt-1 flex-shrink-0" />
                 <span className="text-gray-400 text-sm sm:text-base text-left">Vellore, Tamil Nadu, India</span>
               </li>
               <li className="flex items-start justify-center sm:justify-start">
-                <Phone className="h-5 w-5 text-amber-500 mr-3 md:mr-4 mt-1 flex-shrink-0" />
+                <Phone className="h-5 w-5 text-[#646464] mr-3 md:mr-4 mt-1 flex-shrink-0" />
                 <span className="text-gray-400 text-sm sm:text-base">+91 7397611591</span>
               </li>
               <li className="flex items-start justify-center sm:justify-start">
-                <Mail className="h-5 w-5 text-amber-500 mr-3 md:mr-4 mt-1 flex-shrink-0" />
+                <Mail className="h-5 w-5 text-[#646464] mr-3 md:mr-4 mt-1 flex-shrink-0" />
                 <span className="text-gray-400 text-sm sm:text-base">info@29yards.com</span>
               </li>
             </ul>
             <div className="mt-6 md:mt-8">
               <Link href="/contact#quote-form">
-                <Button className="bg-amber-500 hover:bg-amber-600 text-black font-medium w-full transition-all duration-300">
+                <Button className="bg-[#3C3C3C] hover:bg-[#646464] text-white font-medium w-full transition-all duration-300">
                   Get a Free Quote
                 </Button>
               </Link>
