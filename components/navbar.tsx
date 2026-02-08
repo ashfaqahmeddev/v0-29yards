@@ -274,7 +274,7 @@ function NavItem({
         </motion.span>
         {isActive && (
           <motion.div
-            className="absolute bottom-0 left-0 right-0 h-0.5 bg-gray-800"
+            className="absolute bottom-0 left-0 right-0 h-0.5 bg-chart-2"
             layoutId="navbar-underline"
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
           />
