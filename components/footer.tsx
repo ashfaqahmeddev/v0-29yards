@@ -21,11 +21,11 @@ export function Footer() {
           </div>
 
           {/* Main Content Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 md:gap-16 mb-12 md:mb-16 ml-0 lg:ml-[90px]">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16 mb-12 md:mb-16 ml-0 md:ml-[90px]">
             {/* Column 1 - Our Services */}
-            <div className="text-center lg:text-left">
+            <div className="text-center md:text-left">
               <h3 className="text-lg md:text-xl font-semibold mb-6 text-white">Our Services</h3>
-              <div className="flex lg:flex-col gap-2 md:gap-4 justify-center lg:justify-start">
+              <div className="flex md:flex-col gap-2 md:gap-4 justify-center md:justify-start">
                 <Link
                   href="/services/residential"
                   className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
@@ -48,9 +48,9 @@ export function Footer() {
             </div>
 
             {/* Column 2 - Quick Links */}
-            <div className="text-center lg:text-left">
+            <div className="text-center md:text-left">
               <h3 className="text-lg md:text-xl font-semibold mb-6 text-white">Quick Links</h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-1 lg:flex lg:flex-col gap-2 md:gap-3 justify-center lg:justify-start">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-1 md:flex md:flex-col gap-2 md:gap-3 justify-center md:justify-start">
                 <Link
                   href="/about"
                   className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
@@ -85,10 +85,10 @@ export function Footer() {
             </div>
 
             {/* Column 3 - Contact Information */}
-            <div className="flex flex-col gap-8 text-center lg:text-left">
+            <div className="flex flex-col gap-8 text-center md:text-left">
               <div>
                 <h3 className="text-lg md:text-xl font-semibold mb-6 text-white">Contact Information</h3>
-                <div className="space-y-3 flex flex-col items-center lg:items-start">
+                <div className="space-y-3 flex flex-col items-center md:items-start">
                   <div className="flex items-center gap-3">
                     <MapPin className="h-5 w-5 text-[#646464] flex-shrink-0" />
                     <span className="text-gray-400 text-xs md:text-sm lg:text-base">Vellore, Tamil Nadu, India</span>
@@ -105,7 +105,7 @@ export function Footer() {
               </div>
 
               {/* CTA Button */}
-              <div className="flex justify-center lg:justify-start">
+              <div className="flex justify-center md:justify-start">
                 <Link href="/contact#quote-form">
                   <Button className="bg-[#3C3C3C] hover:bg-[#646464] text-white font-medium px-6 md:px-8 py-2.5 md:py-3 text-xs md:text-sm transition-all duration-300">
                     Get a Free Quote
