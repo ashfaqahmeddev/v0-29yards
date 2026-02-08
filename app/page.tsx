@@ -92,17 +92,17 @@ export default function Home() {
       </section>
 
       {/* Mission & Vision Section */}
-      <section className="py-16 md:py-24 lg:py-32 bg-[#F3F3F3] dark:bg-[#3C3C3C]">
+      <section className="py-16 md:py-24 lg:py-32 bg-[#131313]">
         <div className="container mx-auto px-4">
           <FadeIn>
             <div className="text-center mb-12 md:mb-20 max-w-3xl mx-auto">
-              <div className="inline-block px-4 py-2 bg-[#E5E5E5] text-[#3C3C3C] dark:bg-[#646464] dark:text-white rounded-full text-sm font-medium mb-3 md:mb-4">
+              <div className="inline-block px-4 py-2 bg-[#3C3C3C] text-white rounded-full text-sm font-medium mb-3 md:mb-4">
                 Our Purpose
               </div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-[#131313] dark:text-white">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-white">
                 Mission & Vision
               </h2>
-              <p className="text-base md:text-lg text-[#3C3C3C] dark:text-[#B5B5B5]">
+              <p className="text-base md:text-lg text-[#B5B5B5]">
                 To provide integrated construction solutions with strong engineering, safety, transparency, and timely
                 delivery across Tamil Nadu.
               </p>
@@ -111,7 +111,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 max-w-5xl mx-auto">
             <FadeIn direction="left" delay={0.2}>
-              <div className="bg-white dark:bg-[#3C3C3C] p-6 md:p-10 rounded-2xl shadow-md border border-[#E5E5E5] dark:border-[#646464]">
+              <div className="bg-[#3C3C3C] p-6 md:p-10 rounded-2xl shadow-md border border-[#646464]">
                 <div className="flex items-center mb-4 md:mb-6 justify-center sm:justify-start">
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
@@ -120,7 +120,7 @@ export default function Home() {
                   >
                     <Target className="h-6 w-6 md:h-7 md:w-7 text-[#3C3C3C] dark:text-white" />
                   </motion.div>
-                  <h3 className="text-xl md:text-2xl font-bold text-[#131313] dark:text-white">Our Mission</h3>
+                  <h3 className="text-xl md:text-2xl font-bold text-white">Our Mission</h3>
                 </div>
                 <p className="text-gray-700 dark:text-gray-300 mb-4 md:mb-6 text-sm sm:text-base text-center sm:text-left">
                   To provide integrated construction solutions with strong engineering, safety, transparency, and timely
@@ -150,7 +150,7 @@ export default function Home() {
             </FadeIn>
 
             <FadeIn direction="right" delay={0.4}>
-              <div className="bg-white dark:bg-[#3C3C3C] p-6 md:p-10 rounded-2xl shadow-md border border-[#E5E5E5] dark:border-[#646464]">
+              <div className="bg-[#3C3C3C] p-6 md:p-10 rounded-2xl shadow-md border border-[#646464]">
                 <div className="flex items-center mb-4 md:mb-6 justify-center sm:justify-start">
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
@@ -159,7 +159,7 @@ export default function Home() {
                   >
                     <Eye className="h-6 w-6 md:h-7 md:w-7 text-[#3C3C3C] dark:text-white" />
                   </motion.div>
-                  <h3 className="text-xl md:text-2xl font-bold text-[#131313] dark:text-white">Our Vision</h3>
+                  <h3 className="text-xl md:text-2xl font-bold text-white">Our Vision</h3>
                 </div>
                 <p className="text-gray-700 dark:text-gray-300 mb-4 md:mb-6 text-sm sm:text-base text-center sm:text-left">
                   To become a trusted and technology-driven construction company delivering quality-focused projects
@@ -191,7 +191,7 @@ export default function Home() {
 
           <ScaleIn delay={0.6}>
             <div className="mt-10 md:mt-16 text-center">
-              <div className="bg-[#F3F3F3] dark:bg-[#3C3C3C]/50 p-6 md:p-8 rounded-2xl max-w-3xl mx-auto border border-[#E5E5E5] dark:border-[#646464]">
+              <div className="bg-[#3C3C3C]/80 p-6 md:p-8 rounded-2xl max-w-3xl mx-auto border border-[#646464]">
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
                     transition={{ duration: 0.3 }}
@@ -199,10 +199,10 @@ export default function Home() {
                   >
                     <Lightbulb className="h-6 w-6 md:h-7 md:w-7 text-[#3C3C3C] dark:text-white" />
                 </motion.div>
-                <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-[#131313] dark:text-white">
+                <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-white">
                   Our Core Values
                 </h3>
-                <p className="text-[#3C3C3C] dark:text-[#B5B5B5] text-sm sm:text-base md:text-lg mb-5 md:mb-6">
+                <p className="text-[#B5B5B5] text-sm sm:text-base md:text-lg mb-5 md:mb-6">
                   Engineering Integrity | Quality First | Safety Commitment | Technology-Driven | Accountability |
                   Client Focus
                 </p>
