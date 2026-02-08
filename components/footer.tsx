@@ -121,7 +121,7 @@ export function Footer() {
 
           {/* Contact Info - Full Width on Mobile, 2 Columns on Desktop */}
           <div className="col-span-2 sm:col-span-1 lg:col-span-2 text-center sm:text-left">
-            <h3 className="text-lg font-semibold mb-4 md:mb-6 text-white text-left">Contact Information</h3>
+            <h3 className="text-lg font-semibold mb-4 md:mb-6 text-white text-left ml-[33px] sm:ml-0">Contact Information</h3>
             <ul className="space-y-3 sm:space-y-4 md:space-y-6 ml-[33px] sm:ml-0">
               <li className="flex items-start sm:justify-start justify-start">
                 <MapPin className="h-5 w-5 text-[#646464] mr-3 md:mr-4 mt-1 flex-shrink-0" />
