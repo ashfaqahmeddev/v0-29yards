@@ -40,7 +40,7 @@ export function Footer() {
         </div>
 
         {/* Services and Quick Links - 2 Columns on Mobile, then 4 Columns on Desktop */}
-        <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 sm:mb-12">
+        <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 sm:mb-12 sm:ml-[40px]">
           {/* Services */}
           <div className="text-center">
             <h3 className="text-lg font-semibold mb-4 md:mb-6 text-white">Our Services</h3>
