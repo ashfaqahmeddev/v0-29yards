@@ -92,17 +92,17 @@ export default function Home() {
       </section>
 
       {/* Mission & Vision Section */}
-      <section className="py-16 md:py-24 lg:py-32 bg-white dark:bg-gray-900">
+      <section className="py-16 md:py-24 lg:py-32 bg-[#F3F3F3] dark:bg-[#3C3C3C]">
         <div className="container mx-auto px-4">
           <FadeIn>
             <div className="text-center mb-12 md:mb-20 max-w-3xl mx-auto">
-              <div className="inline-block px-4 py-2 bg-slate-100 text-slate-700 dark:bg-slate-900 dark:text-slate-400 rounded-full text-sm font-medium mb-3 md:mb-4">
+              <div className="inline-block px-4 py-2 bg-[#E5E5E5] text-[#3C3C3C] dark:bg-[#646464] dark:text-white rounded-full text-sm font-medium mb-3 md:mb-4">
                 Our Purpose
               </div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-gray-900 dark:text-white">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-[#131313] dark:text-white">
                 Mission & Vision
               </h2>
-              <p className="text-base md:text-lg text-gray-700 dark:text-gray-300">
+              <p className="text-base md:text-lg text-[#3C3C3C] dark:text-[#B5B5B5]">
                 To provide integrated construction solutions with strong engineering, safety, transparency, and timely
                 delivery across Tamil Nadu.
               </p>
@@ -111,16 +111,16 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 max-w-5xl mx-auto">
             <FadeIn direction="left" delay={0.2}>
-              <div className="bg-gray-50 dark:bg-gray-800 p-6 md:p-10 rounded-2xl shadow-md">
+              <div className="bg-white dark:bg-[#3C3C3C] p-6 md:p-10 rounded-2xl shadow-md border border-[#E5E5E5] dark:border-[#646464]">
                 <div className="flex items-center mb-4 md:mb-6 justify-center sm:justify-start">
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
                     transition={{ duration: 0.3 }}
-                    className="bg-slate-100 dark:bg-slate-900 w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center mr-4"
+                    className="bg-[#E5E5E5] dark:bg-[#646464] w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center mr-4"
                   >
-                    <Target className="h-6 w-6 md:h-7 md:w-7 text-slate-600 dark:text-slate-400" />
+                    <Target className="h-6 w-6 md:h-7 md:w-7 text-[#3C3C3C] dark:text-white" />
                   </motion.div>
-                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">Our Mission</h3>
+                  <h3 className="text-xl md:text-2xl font-bold text-[#131313] dark:text-white">Our Mission</h3>
                 </div>
                 <p className="text-gray-700 dark:text-gray-300 mb-4 md:mb-6 text-sm sm:text-base text-center sm:text-left">
                   To provide integrated construction solutions with strong engineering, safety, transparency, and timely
@@ -128,20 +128,20 @@ export default function Home() {
                 </p>
                 <StaggerIn direction="up" staggerDelay={0.1}>
                   <div className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-slate-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
-                    <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base text-left">
+                    <CheckCircle className="h-5 w-5 text-[#646464] mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
+                    <p className="text-[#3C3C3C] dark:text-[#B5B5B5] text-sm sm:text-base text-left">
                       Engineer-led projects ensuring technical expertise at every stage
                     </p>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-slate-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
-                    <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base text-left">
+                    <CheckCircle className="h-5 w-5 text-[#646464] mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
+                    <p className="text-[#3C3C3C] dark:text-[#B5B5B5] text-sm sm:text-base text-left">
                       Transparent costing with clear BOQs and stage-wise billing
                     </p>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-slate-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
-                    <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base text-left">
+                    <CheckCircle className="h-5 w-5 text-[#646464] mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
+                    <p className="text-[#3C3C3C] dark:text-[#B5B5B5] text-sm sm:text-base text-left">
                       ISO-based quality systems with international standards
                     </p>
                   </div>
@@ -150,16 +150,16 @@ export default function Home() {
             </FadeIn>
 
             <FadeIn direction="right" delay={0.4}>
-              <div className="bg-gray-50 dark:bg-gray-800 p-6 md:p-10 rounded-2xl shadow-md">
+              <div className="bg-white dark:bg-[#3C3C3C] p-6 md:p-10 rounded-2xl shadow-md border border-[#E5E5E5] dark:border-[#646464]">
                 <div className="flex items-center mb-4 md:mb-6 justify-center sm:justify-start">
                   <motion.div
                     whileHover={{ rotate: 15, scale: 1.1 }}
                     transition={{ duration: 0.3 }}
-                    className="bg-slate-100 dark:bg-slate-900 w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center mr-4"
+                    className="bg-[#E5E5E5] dark:bg-[#646464] w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center mr-4"
                   >
-                    <Eye className="h-6 w-6 md:h-7 md:w-7 text-slate-600 dark:text-slate-400" />
+                    <Eye className="h-6 w-6 md:h-7 md:w-7 text-[#3C3C3C] dark:text-white" />
                   </motion.div>
-                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">Our Vision</h3>
+                  <h3 className="text-xl md:text-2xl font-bold text-[#131313] dark:text-white">Our Vision</h3>
                 </div>
                 <p className="text-gray-700 dark:text-gray-300 mb-4 md:mb-6 text-sm sm:text-base text-center sm:text-left">
                   To become a trusted and technology-driven construction company delivering quality-focused projects
@@ -167,20 +167,20 @@ export default function Home() {
                 </p>
                 <StaggerIn direction="up" staggerDelay={0.1}>
                   <div className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-slate-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
-                    <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base text-left">
+                    <CheckCircle className="h-5 w-5 text-[#646464] mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
+                    <p className="text-[#3C3C3C] dark:text-[#B5B5B5] text-sm sm:text-base text-left">
                       International standards with local expertise in Tamil Nadu
                     </p>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-slate-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
-                    <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base text-left">
+                    <CheckCircle className="h-5 w-5 text-[#646464] mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
+                    <p className="text-[#3C3C3C] dark:text-[#B5B5B5] text-sm sm:text-base text-left">
                       Modern technology like BIM, ETABS, and advanced software
                     </p>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-slate-500 mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
-                    <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base text-left">
+                    <CheckCircle className="h-5 w-5 text-[#646464] mr-2 md:mr-3 mt-0.5 flex-shrink-0" />
+                    <p className="text-[#3C3C3C] dark:text-[#B5B5B5] text-sm sm:text-base text-left">
                       Founder-led project supervision from planning to completion
                     </p>
                   </div>
@@ -191,24 +191,24 @@ export default function Home() {
 
           <ScaleIn delay={0.6}>
             <div className="mt-10 md:mt-16 text-center">
-              <div className="bg-slate-50 dark:bg-slate-900/30 p-6 md:p-8 rounded-2xl max-w-3xl mx-auto">
-                <motion.div
-                  whileHover={{ rotate: 15, scale: 1.1 }}
-                  transition={{ duration: 0.3 }}
-                  className="bg-slate-100 dark:bg-slate-900 w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center mx-auto mb-4"
-                >
-                  <Lightbulb className="h-6 w-6 md:h-7 md:w-7 text-slate-600 dark:text-slate-400" />
+              <div className="bg-[#F3F3F3] dark:bg-[#3C3C3C]/50 p-6 md:p-8 rounded-2xl max-w-3xl mx-auto border border-[#E5E5E5] dark:border-[#646464]">
+                  <motion.div
+                    whileHover={{ rotate: 15, scale: 1.1 }}
+                    transition={{ duration: 0.3 }}
+                    className="bg-[#E5E5E5] dark:bg-[#646464] w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center mx-auto mb-4"
+                  >
+                    <Lightbulb className="h-6 w-6 md:h-7 md:w-7 text-[#3C3C3C] dark:text-white" />
                 </motion.div>
-                <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-gray-900 dark:text-white">
+                <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-[#131313] dark:text-white">
                   Our Core Values
                 </h3>
-                <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base md:text-lg mb-5 md:mb-6">
+                <p className="text-[#3C3C3C] dark:text-[#B5B5B5] text-sm sm:text-base md:text-lg mb-5 md:mb-6">
                   Engineering Integrity | Quality First | Safety Commitment | Technology-Driven | Accountability |
                   Client Focus
                 </p>
                 <Link href="/contact">
                   <AnimatedButton
-                    className="bg-slate-500 hover:bg-slate-600 text-white font-semibold"
+                    className="bg-[#3C3C3C] hover:bg-[#646464] text-white font-semibold"
                     hoverEffect="shine"
                     iconRotate={true}
                   >
