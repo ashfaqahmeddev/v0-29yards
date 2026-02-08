@@ -21,75 +21,71 @@ export function Footer() {
           </div>
 
           {/* Main Content Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 mb-12 md:mb-16">
-            {/* Left Column - Services and Quick Links (Mobile: centered, Desktop: flex-col) */}
-            <div className="space-y-12 text-center lg:text-left">
-              {/* Our Services */}
-              <div>
-                <h3 className="text-lg md:text-xl font-semibold mb-6 text-white">Our Services</h3>
-                <div className="flex lg:flex-col gap-2 md:gap-4 justify-center lg:justify-start">
-                  <Link
-                    href="/services/residential"
-                    className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
-                  >
-                    Residential
-                  </Link>
-                  <Link
-                    href="/services/commercial"
-                    className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
-                  >
-                    Commercial
-                  </Link>
-                  <Link
-                    href="/services/renovation"
-                    className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
-                  >
-                    Renovation
-                  </Link>
-                </div>
-              </div>
-
-              {/* Quick Links */}
-              <div>
-                <h3 className="text-lg md:text-xl font-semibold mb-6 text-white">Quick Links</h3>
-                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-1 lg:flex lg:flex-col gap-2 md:gap-3 justify-center lg:justify-start">
-                  <Link
-                    href="/about"
-                    className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
-                  >
-                    About Us
-                  </Link>
-                  <Link
-                    href="/projects"
-                    className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
-                  >
-                    Projects
-                  </Link>
-                  <Link
-                    href="/careers"
-                    className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
-                  >
-                    Careers
-                  </Link>
-                  <Link
-                    href="/faq"
-                    className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
-                  >
-                    FAQ
-                  </Link>
-                  <Link
-                    href="/contact"
-                    className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
-                  >
-                    Contact Us
-                  </Link>
-                </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 md:gap-16 mb-12 md:mb-16">
+            {/* Column 1 - Our Services */}
+            <div className="text-center lg:text-left">
+              <h3 className="text-lg md:text-xl font-semibold mb-6 text-white">Our Services</h3>
+              <div className="flex lg:flex-col gap-2 md:gap-4 justify-center lg:justify-start">
+                <Link
+                  href="/services/residential"
+                  className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
+                >
+                  Residential
+                </Link>
+                <Link
+                  href="/services/commercial"
+                  className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
+                >
+                  Commercial
+                </Link>
+                <Link
+                  href="/services/renovation"
+                  className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
+                >
+                  Renovation
+                </Link>
               </div>
             </div>
 
-            {/* Right Column - Contact Information and Button */}
+            {/* Column 2 - Quick Links */}
+            <div className="text-center lg:text-left">
+              <h3 className="text-lg md:text-xl font-semibold mb-6 text-white">Quick Links</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-1 lg:flex lg:flex-col gap-2 md:gap-3 justify-center lg:justify-start">
+                <Link
+                  href="/about"
+                  className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
+                >
+                  About Us
+                </Link>
+                <Link
+                  href="/projects"
+                  className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
+                >
+                  Projects
+                </Link>
+                <Link
+                  href="/careers"
+                  className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
+                >
+                  Careers
+                </Link>
+                <Link
+                  href="/faq"
+                  className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
+                >
+                  FAQ
+                </Link>
+                <Link
+                  href="/contact"
+                  className="text-gray-400 text-xs md:text-sm lg:text-base hover:text-[#646464] transition-colors"
+                >
+                  Contact Us
+                </Link>
+              </div>
+            </div>
+
+            {/* Column 3 - Contact Information */}
             <div className="flex flex-col gap-8 text-center lg:text-left">
-              {/* Contact Information */}
               <div>
                 <h3 className="text-lg md:text-xl font-semibold mb-6 text-white">Contact Information</h3>
                 <div className="space-y-3 flex flex-col items-center lg:items-start">
