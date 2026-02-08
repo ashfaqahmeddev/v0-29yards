@@ -42,7 +42,7 @@ export function Footer() {
         {/* Services and Quick Links - 2 Columns on Mobile, then 4 Columns on Desktop */}
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 sm:mb-12">
           {/* Services */}
-          <div className="text-center sm:text-left">
+          <div className="text-center">
             <h3 className="text-lg font-semibold mb-4 md:mb-6 text-white">Our Services</h3>
             <ul className="space-y-2 sm:space-y-3 md:space-y-4">
               <li>
@@ -73,7 +73,7 @@ export function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div className="text-center sm:text-left">
+          <div className="text-center">
             <h3 className="text-lg font-semibold mb-4 md:mb-6 text-white">Quick Links</h3>
             <ul className="space-y-2 sm:space-y-3 md:space-y-4">
               <li>
