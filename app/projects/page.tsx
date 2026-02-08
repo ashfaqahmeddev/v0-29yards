@@ -189,7 +189,7 @@ export default function ProjectsPage() {
             </div>
             <div className="relative h-[300px] sm:h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-xl mt-8 md:mt-0">
               <Image
-                src="/images/whatsapp-20image-202026-02-08-20at-201.jpeg"
+                src="/images/construction-process.jpeg"
                 alt="Construction process"
                 fill
                 className="object-cover"
